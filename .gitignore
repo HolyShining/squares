@@ -305,3 +305,4 @@ fabric.properties
 Pipfile.lock
 squares/secrets.py
 .idea/
+db.sqlite3
