@@ -1,1 +1,13 @@
 <h1>Index</h1>
+<div class="data"></div>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Submit</button>
+</form>
+<div class="result">
+    {{ result }}
+</div>
+<div class="error">
+    {{ error }}
+</div>
